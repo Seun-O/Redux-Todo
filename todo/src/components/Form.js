@@ -22,16 +22,14 @@ class Form extends Component {
           value={this.state.todoItem}
           required
         />
-        <div className="center-align">
-          <button
-            className="btn waves-effect waves-light"
-            type="submit"
-            name="submit"
-          >
-            Submit
-            <i className="material-icons right">send</i>
-          </button>
-        </div>
+        <button
+          className="purple left btn waves-effect waves-light"
+          type="submit"
+          name="submit"
+        >
+          Submit
+          <i className="material-icons right">send</i>
+        </button>
       </form>
     );
   }

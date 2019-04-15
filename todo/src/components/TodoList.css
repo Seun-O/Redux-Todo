@@ -3,3 +3,7 @@
   /* font-family: "Merienda", cursive; */
   font-family: "Gloria Hallelujah", cursive;
 }
+
+.task-complete i {
+  color: #4caf50;
+}

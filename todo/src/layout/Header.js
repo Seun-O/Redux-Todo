@@ -15,9 +15,11 @@ export default class extends Component {
       weekday: "long"
     };
     return (
-      <div className="date-container">
-        <h1>{this.state.date.toLocaleDateString("en-US", day)}</h1>
-        <p>{this.state.date.toLocaleDateString("en-US", options)}</p>
+      <div className="container center">
+        <div className="date-container">
+          <h1>{this.state.date.toLocaleDateString("en-US", day)}</h1>
+          <p>{this.state.date.toLocaleDateString("en-US", options)}</p>
+        </div>
       </div>
     );
   }

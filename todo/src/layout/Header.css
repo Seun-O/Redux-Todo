@@ -1,4 +1,11 @@
 .date-container {
-  background: lemonchiffon;
-  text-align: center;
+  margin-top: 2rem;
+}
+.date-container h1 {
+  margin: 0;
+}
+
+.date-container p {
+  margin: 0;
+  font-size: 1.6rem;
 }
