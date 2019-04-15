@@ -1,13 +1,18 @@
 import React, { Component } from "react";
 import Form from "./Form";
 import TodoList from "./TodoList";
+import Menu from "../layout/Menu";
+import Header from "../layout/Header";
 class App extends Component {
   render() {
     return (
       <div>
-        <h1>Redux Todo List</h1>
-        <Form />
-        <TodoList />
+        <Menu />
+        <div className="container">
+          <Header />
+          <Form />
+          <TodoList />
+        </div>
       </div>
     );
   }

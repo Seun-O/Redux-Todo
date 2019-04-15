@@ -18,12 +18,20 @@ class Form extends Component {
         <input
           onChange={this.H_change}
           type="text"
-          placeholder="Add todo ..."
+          placeholder="Add a task ..."
           value={this.state.todoItem}
+          required
         />
-        <button type="submit" name="submit">
-          Submit
-        </button>
+        <div className="center-align">
+          <button
+            className="btn waves-effect waves-light"
+            type="submit"
+            name="submit"
+          >
+            Submit
+            <i className="material-icons right">send</i>
+          </button>
+        </div>
       </form>
     );
   }

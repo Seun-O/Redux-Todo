@@ -1,0 +1,13 @@
+/* .todo-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.todo-item div {
+  margin-left: 4rem;
+  background: red;
+  padding: 5px;
+
+  border-radius: 10%;
+}
