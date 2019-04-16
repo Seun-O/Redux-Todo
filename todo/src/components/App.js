@@ -1,18 +1,20 @@
 import React, { Component } from "react";
-import Form from "./Form";
+import FormModal from "./FormModal";
 import TodoList from "./TodoList";
 import Menu from "../layout/Menu";
 import Header from "../layout/Header";
+import Container from "../layout/Container";
+
 class App extends Component {
   render() {
     return (
       <div>
         <Menu />
-        <div className="container">
+        <Container>
           <Header />
-          <Form />
           <TodoList />
-        </div>
+          <FormModal />
+        </Container>
       </div>
     );
   }
