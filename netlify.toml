@@ -8,7 +8,7 @@
 [build]
   base    = "todo"
   command = "npm run build"
-  publish = "build"
+  publish = "build/"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
